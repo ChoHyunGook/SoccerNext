@@ -9,12 +9,9 @@ import { Modal } from "./Modal";
 export function Layout({ children }){
   return (
       <div className={styles.container}>
-        <Header/>
-        <Nav/>
         <main className={styles.main}>{children}</main>
         <Table/>
         <Pagination/>
-        <Footer/>
         <Modal/>
       </div>
   );
